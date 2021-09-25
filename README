@@ -1,0 +1,11 @@
+Para instalar es necesario tener un archivo .env con las siguiente estructura
+HOST_BD=
+USER_BD= 
+CLAVE_BD= 
+DATA_BASE=
+PORT_BD=
+
+para correrlo
+
+npm install
+npm start

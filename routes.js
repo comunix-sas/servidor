@@ -1,6 +1,17 @@
 const express = require("express");
 const routes = express.Router();
 
+// departamentos
+// GET LISTA TODO
+// departamentos/:id
+// GET filtra por id
+// departamento
+// POST
+// departamentos/:id
+// post - delete
+// departamentos/:id
+// post - put
+
 routes.get("/consulta", (req, res) => {
   req.getConnection((err, conn) => {
     if (err) return res.send(err);
